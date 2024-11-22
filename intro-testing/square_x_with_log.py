@@ -7,5 +7,5 @@ def my_sqrt(x):
         approx = guess
         guess = (approx + x / approx) / 2
     return approx
-
-print(my_sqrt(9))
+if __name__ == "__main__":
+    my_sqrt(45)

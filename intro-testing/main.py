@@ -1,5 +1,6 @@
 import square_x
 import square_x_test_assert
+import square_x_checked
 import time
 
 start_time = time.time()
@@ -17,3 +18,7 @@ for i in range(1, n_loop):
 end_time = time.time()
 
 print("program work time = ", end_time - start_time)
+
+print("checked square x", square_x_checked.my_sqrt_checked(2))
+
+
